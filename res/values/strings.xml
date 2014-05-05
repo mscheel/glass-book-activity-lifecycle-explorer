@@ -1,5 +1,5 @@
 <resources>
 
-    <string name="app_name">CardScrollViewExample</string>
+    <string name="app_name">Activity Lifecycle Explorer</string>
 
 </resources>

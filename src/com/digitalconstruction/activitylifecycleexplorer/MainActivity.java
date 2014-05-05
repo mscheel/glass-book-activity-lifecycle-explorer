@@ -1,6 +1,5 @@
 package com.digitalconstruction.activitylifecycleexplorer;
 
-import com.example.cardscrollviewexample.R;
 import com.google.android.glass.app.VoiceTriggers;
 
 import android.app.Activity;
