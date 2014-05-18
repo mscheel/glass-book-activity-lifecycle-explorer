@@ -1,7 +1,5 @@
 package com.digitalconstruction.activitylifecycleexplorer;
 
-import com.google.android.glass.app.VoiceTriggers;
-
 import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
@@ -14,7 +12,6 @@ public class MainActivity extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
-		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 
 		setContentView(R.layout.main);
@@ -26,7 +23,6 @@ public class MainActivity extends Activity {
 
 	@Override
 	protected void onPause() {
-		// TODO Auto-generated method stub
 		super.onPause();
 		mTextView.setText(mTextView.getText() + "onPause ");
 		Log.d(TAG, "onPause");
@@ -34,7 +30,6 @@ public class MainActivity extends Activity {
 
 	@Override
 	protected void onRestart() {
-		// TODO Auto-generated method stub
 		super.onRestart();
 		mTextView.setText(mTextView.getText() + "onRestart ");
 		Log.d(TAG, "onRestart");
@@ -43,7 +38,6 @@ public class MainActivity extends Activity {
 
 	@Override
 	protected void onResume() {
-		// TODO Auto-generated method stub
 		super.onResume();
 		mTextView.setText(mTextView.getText() + "onResume ");
 		Log.d(TAG, "onResume");
@@ -51,7 +45,6 @@ public class MainActivity extends Activity {
 
 	@Override
 	protected void onStart() {
-		// TODO Auto-generated method stub
 		super.onStart();
 		mTextView.setText(mTextView.getText() + "onStart ");
 		Log.d(TAG, "onStart");
@@ -59,7 +52,6 @@ public class MainActivity extends Activity {
 
 	@Override
 	protected void onStop() {
-		// TODO Auto-generated method stub
 		super.onStop();
 		mTextView.setText(mTextView.getText() + "onStop ");
 		Log.d(TAG, "onStop");
@@ -67,7 +59,6 @@ public class MainActivity extends Activity {
 
 	@Override
 	protected void onDestroy() {
-		// TODO Auto-generated method stub
 		super.onDestroy();
 		mTextView.setText(mTextView.getText() + "onDestroy ");
 		Log.d(TAG, "onDestroy");
